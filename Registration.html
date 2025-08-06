@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    <form action="https://formsubmit.co/anugyas54@gmail.com" method="POST" enctype="multipart/form-data">
+        <div class="container">
+            <div class=" heading">
+        <h1> HP CHILDREN'S ACADEMY</h1>
+        <h2>Registration Form</h2>
+            </div>
+        <h3> Student Information</h3>
+        <p> Sudent Name : <input type="text" name="name" placeholder="Enter your name" required></p>
+        <fieldset>
+            <legend> Gender </legend>
+            <p> Male : <input type="radio" name="Male" value="Male"></p>
+            <P> Female : <input type="radio" name="Female" value="Female"></P>
+        </fieldset>
+        <label for="Photo"> Upload Student Photo : <input type="file" name="Photo" id="Photo" accept="image/*"></label>
+        <p>DOB : <input type="date" name="DOB" required></p>
+        <P>
+            Address : <textarea name="Address" cols="100" rows="8" required></textarea>
+        </P>
+<p>  Student Contact : <input type="tel" name="Student_contact" id="Student_contact" required></p>
+<p>  Student Email : <input type="email" name="Student_email" id="Student_email"></p>
+<p>Class Applying For : <input type="text" name="Class" id="Class"required></p>
+<p> Previous School Name : <input type="text" name=" Previous_School" id="Previous_School" required></p>
+<h2>Parent's Information</h2>
+<p>Father Name : <input type="text" name="Father_Name" id="Father_Name"></p>
+<p>Father Occupation : <input type="text" name="Father_Occupation" id="Father_Occupation"></p>
+<p> Father Contact Number : <input type="tel" name="Father_Contact" id="Father"></p>
+<p>Mother Name : <input type="text" name="Mother_Name" id="Mother_Name"></p>
+<p>Mother Occupation : <input type="text" name=" Mother_Occupation" id="Mother_Occupation"></p>
+<p>Mother Contact Number: <input type="tel" name="Mother_Contact" id="Mother_Contact"></p>
+<p>Email : <input type="email" name="Parent_Email" id="Parent_Email"></p>
+<p> <input type="submit" value="Submit">
+</div>
+    </form>
+</body>
+</html>
